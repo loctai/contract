@@ -4,7 +4,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/access/AccessControlEnumerable.sol";
 import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
-import "./aethr-nft.sol";
+import "./dog-nft.sol";
 
 contract UserPool is AccessControlEnumerable, Ownable, ReentrancyGuard {
     using SafeERC20 for IERC20;
